@@ -1,0 +1,11 @@
+public class GCD {
+    public static void main(String[] args) {
+        int a = 54, b = 98;
+        while (b != 0) {
+            int r = a % b;
+            a = b;
+            b = r;
+        }
+        System.out.println("GCD = " + a);
+    }
+}
