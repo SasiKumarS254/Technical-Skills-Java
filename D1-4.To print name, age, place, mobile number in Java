@@ -1,0 +1,12 @@
+public class PersonalInfo {
+    public static void main(String[] args) {
+        String name = "John Doe";
+        int age = 25;
+        String place = "New York";
+        String mobileNumber = "123-456-7890";
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Place: " + place);
+        System.out.println("Mobile Number: " + mobileNumber);
+    }
+}
