@@ -1,0 +1,7 @@
+class Main{
+    public static void main(String[] args){
+        String s="Sachien";
+        s.concat("Tendurkal");
+        System.out.println(s);
+    }
+}
