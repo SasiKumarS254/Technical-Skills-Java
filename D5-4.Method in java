@@ -1,0 +1,9 @@
+class MethodEX{
+    public void printMessage(){
+        System.out.println("Hello");
+    }
+    public static void main(String[] args){
+        MethodEX myObj=new MethodEX();
+        myObj.printMessage();
+    }
+}
