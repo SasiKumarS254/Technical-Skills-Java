@@ -1,0 +1,42 @@
+class Bank{
+    void savings(){
+        System.out.println("All Bank");
+    }
+}
+class IndianBank extends Bank{
+    @Override
+    void savings(){
+        System.out.println("Indian Bank");
+    }
+}
+class HDFC extends Bank{
+    @Override
+    void savings(){
+        System.out.println("HDFC");
+    }
+}
+class KVB extends Bank{
+    @Override
+    void savings(){
+        System.out.println("KVB");
+    }
+}
+class Canara extends Bank{
+    @Override
+    void savings(){
+        System.out.println("Canara");
+    }
+}
+class Main{
+    public static void main(String[] args){
+        Bank a;
+        a=new IndianBank();
+        a.savings();
+        a=new Canara();
+        a.savings();
+        a=new KVB();
+        a.savings();
+        a=new HDFC();
+        a.savings();
+    }
+}
