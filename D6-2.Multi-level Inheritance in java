@@ -1,0 +1,33 @@
+public class Animal{
+    void eat(){
+        System.out.println("Eating...");
+    }
+}
+class Dog extends Animal{
+    void bark(){
+        System.out.println("Barking...");
+    }
+}
+class Cat extends Dog{
+    void meow(){
+        System.out.println("Meow...");
+    }
+}
+class Lion extends Cat{
+    void ghar(){
+        System.out.println("Ghar...");
+    }
+}
+class TestInheritance{
+    public static void main(String[] args){
+        Dog d=new Dog();
+        Cat c=new Cat();
+        Lion l=new Lion();
+        c.meow();
+        l.ghar();
+        d.bark();
+        d.eat();
+        c.eat();
+        l.eat();
+    }
+}
