@@ -1,0 +1,21 @@
+abstract class TV{
+    abstract void turnOn();
+    abstract void turnOff();
+}
+class tvremote extends TV{
+    @Override
+    void turnOn(){
+        System.out.println("TV is turned ON");
+        }
+    @Override
+    void turnOff(){
+        System.out.println("TV is turned OFF");
+        }
+}
+class operate{
+    public static void main(String[] args){
+        TV remote=new tvremote();
+        remote.turnOn();
+        remote.turnOff();
+        }
+}
