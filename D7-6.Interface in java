@@ -1,0 +1,15 @@
+interface fruits{
+    final int a=10;
+    void display();
+}
+class Apple implements fruits{
+    public void display(){
+        System.out.println("Apple is a fruit");
+    }
+}
+class Test{
+    public static void main(String[] args){
+        Apple obj=new Apple();
+        System.out.println(obj.a);
+    }
+}
