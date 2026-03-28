@@ -1,0 +1,15 @@
+class MultiplyFun{
+    int Multiply(int a,int b){
+        return a*b;
+    }
+    int Multiply(int a,int b,int c){
+        return a*b*c;
+    }
+}
+class Main{
+    public static void main(String[] args){
+        MultiplyFun m=new MultiplyFun();
+        System.out.println(m.Multiply(2,3));
+        System.out.println(m.Multiply(2,3,4));
+    }
+}
